@@ -30,8 +30,8 @@ import {
 } from "graphql";
 import { ExecutionContext, getFieldDef } from "graphql/execution/execute";
 import { Kind } from "graphql/language";
-import Maybe from "graphql/tsutils/Maybe";
 import { isAbstractType } from "graphql/type";
+import { Maybe } from "./types";
 import createInspect from "./inspect";
 
 const inspect = createInspect();

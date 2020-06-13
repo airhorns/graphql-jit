@@ -33,7 +33,7 @@ import {
   ExecutionContext as GraphQLContext
 } from "graphql/execution/execute";
 import { FieldNode, OperationDefinitionNode } from "graphql/language/ast";
-import Maybe from "graphql/tsutils/Maybe";
+import { Maybe } from "./types";
 import { GraphQLTypeResolver } from "graphql/type/definition";
 import {
   addPath,
